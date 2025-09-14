@@ -6,7 +6,8 @@ public class Main {
         c.aggiungifilm(f);
         c.aggiungifilm(fm);
         c.filmpresenti();
-        // c.ricercapertitolo("Arancia Meccanica");
+        
+        c.ricercapertitolo("Arancia Meccanica");
         c.ricercapertitolo("arancia meccanica");
         c.ricercapertitolo("ARANCIA MECCANICA");
 

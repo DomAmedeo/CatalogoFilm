@@ -35,7 +35,7 @@ public class CatalogoFilm {
     // Ricerca con ricercapertitolo (DA modificare mettere confronto case-insensitive.)
     public void ricercapertitolo(String titolo){
         for(Film film: CatalogoFilm){
-            if(film.getTitolo()== titolo){
+            if(titolo.equalsIgnoreCase(film.getTitolo())){
                 System.out.println("Il film "+ titolo +" è presente nel catalogo");
             }
         }
