@@ -6,10 +6,15 @@ public class Main {
         c.aggiungifilm(f);
         c.aggiungifilm(fm);
         c.filmpresenti();
-        
-        c.ricercapertitolo("Arancia Meccanica");
-        c.ricercapertitolo("arancia meccanica");
-        c.ricercapertitolo("ARANCIA MECCANICA");
+
+        c.ricercapertitolo("arancia MEccanica");
+
+        c.modificaperID(0, "Inceprtion", "Cristopher Nolan", 1990, "crime");
+        c.modificaperID(10, "Insomnia", "Cristopher Nolan", 1990, "Thriller");
+        c.filmpresenti();
+        c.eliminaperID(0);
+        c.filmpresenti();
+
 
 
 
